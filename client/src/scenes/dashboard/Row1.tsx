@@ -161,7 +161,7 @@ const Row1 = () => {
 				gridArea="b"
 			>
 				<BoxHeader
-					title="Revenue and Expenses"
+					title="Profit and Revenue"
 					subtitle="top line represent revenue, bottom line represents expenses"
 					sideText="+4%"
 				/>
@@ -220,14 +220,11 @@ const Row1 = () => {
 					</LineChart>
 				</ResponsiveContainer>
 			</DashboardBox>
-			<DashboardBox
-				bgcolor="#fff"
-				gridArea="c"
-			>
+			<DashboardBox gridArea="c">
 				<BoxHeader
 					title="Revenue Month by Month"
-					subtitle="grapgh represebnting the renue month by month"
-					sideText="+6%"
+					subtitle="graph representing the revenue month by month"
+					sideText="+4%"
 				/>
 				<ResponsiveContainer
 					width="100%"
@@ -264,13 +261,17 @@ const Row1 = () => {
 								/>
 							</linearGradient>
 						</defs>
-
 						<CartesianGrid
 							vertical={false}
 							stroke={palette.grey[800]}
 						/>
 						<XAxis
 							dataKey="name"
+							axisLine={false}
+							tickLine={false}
+							style={{ fontSize: '10px' }}
+						/>
+						<YAxis
 							axisLine={false}
 							tickLine={false}
 							style={{ fontSize: '10px' }}
