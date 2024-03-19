@@ -221,7 +221,7 @@ const Row1 = () => {
 					</LineChart>
 				</ResponsiveContainer>
 			</DashboardBox>
-
+			
 			<DashboardBox gridArea="c">
 				<BoxHeader
 					title="Revenue Month by Month"

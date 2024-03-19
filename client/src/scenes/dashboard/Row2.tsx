@@ -11,7 +11,6 @@ import {
 	Tooltip,
 	XAxis,
 	YAxis,
-	Legend,
 	Line,
 	PieChart,
 	Pie,
@@ -151,7 +150,7 @@ const Row2 = () => {
 							paddingAngle={2}
 							dataKey="value"
 						>
-							{pieData.map((entry, index) => (
+							{pieData.map((_, index) => (
 								<Cell
 									key={`cell-${index}`}
 									fill={pieColors[index]}
