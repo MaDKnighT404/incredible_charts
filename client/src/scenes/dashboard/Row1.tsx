@@ -156,6 +156,7 @@ const Row1 = () => {
 					</AreaChart>
 				</ResponsiveContainer>
 			</DashboardBox>
+
 			<DashboardBox
 				bgcolor="#fff"
 				gridArea="b"
@@ -220,6 +221,7 @@ const Row1 = () => {
 					</LineChart>
 				</ResponsiveContainer>
 			</DashboardBox>
+
 			<DashboardBox gridArea="c">
 				<BoxHeader
 					title="Revenue Month by Month"
